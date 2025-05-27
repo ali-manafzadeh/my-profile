@@ -387,7 +387,7 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .info-content .name {
@@ -509,14 +509,13 @@ main {
 \*-----------------------------------*/
 
 .navbar {
-  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 12px 12px;
   box-shadow: var(--shadow-2);
   z-index: 5;
 }
@@ -531,7 +530,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: 84 px;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
@@ -610,7 +609,10 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+  direction: rtl;
+  text-align: right;
 }
+
 
 
 /**
@@ -646,7 +648,7 @@ main {
   left: 0;
   transform: translate(15px, -25px);
   background: var(--bg-gradient-onyx);
-  border-radius: 14px;
+  border-radius: 50%;
   box-shadow: var(--shadow-1);
 }
 
@@ -755,7 +757,7 @@ main {
 .modal-avatar-box {
   background: var(--bg-gradient-onyx);
   width: max-content;
-  border-radius: 14px;
+  border-radius: 50%;
   margin-bottom: 15px;
   box-shadow: var(--shadow-2);
 }
@@ -1446,11 +1448,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    * #NAVBAR
    */
 
-  .navbar { border-radius: 20px 20px 0 0; }
+  .navbar { border-radius: 20px 20px 20px 20px; }
 
   .navbar-list { gap: 20px; }
 
-  .navbar-link { --fs-8: 14px; }
+  .navbar-link { --fs-8: 84px; }
 
 
 
@@ -1497,7 +1499,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .testimonials-avatar-box {
     transform: translate(30px, -30px);
-    border-radius: 20px;
+    border-radius: 50%;
   }
 
   .testimonials-avatar-box img { width: 80px; }
@@ -1772,13 +1774,12 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .navbar {
-    position: absolute;
     bottom: auto;
     top: 0;
     left: auto;
     right: 0;
     width: max-content;
-    border-radius: 0 20px;
+    border-radius:20px 20px  0 0 ;
     padding: 0 20px;
     box-shadow: none;
   }
