@@ -370,7 +370,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 292px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1778,7 +1778,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     top: 0;
     left: auto;
     right: 0; 
-    margin : 10 ; 
     width: max-content;
     border-radius:20px 20px  20px 20px ;
     padding: 0 20px;
@@ -1900,11 +1899,11 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar {
     position: sticky;
-    top: 60px;
+    top: 90px;
     max-height: max-content;
     height: 100%;
     margin-bottom: 0;
-    padding-top: 60px;
+    padding-top: 90px;
     z-index: 1;
   }
 
